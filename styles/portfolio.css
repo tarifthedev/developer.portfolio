@@ -6,9 +6,11 @@
 .header {
     background: #fff8f3;
     padding-top: 10px;
-    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-image:url('../images/header_bg.png') ,url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right, left;
+    background-position: bottom right 35px, left;
+   
+   
 }
 
  .button-primary {
@@ -52,34 +54,37 @@ ul li {
 .title{
         font-weight: 800;
         font-size: 45px;
+    
 }
-
 .banner{
         display: flex;
         align-items: center;
         margin: 0 200px;
+     
 }
 
 .banner-title{
     font-weight: 700;
-    font-size: 85px;
+    font-size: 80px;
 }
 
 .sub-title{
   font-weight: 600;
   font-size: 45px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .banner-text {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+  
 }
 
 .banner-img {
-         margin-left: 310px;
-       
+         padding-left:300px;
+    
+   
 }
 
 /* main section */
